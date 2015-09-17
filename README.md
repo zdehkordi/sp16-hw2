@@ -55,7 +55,8 @@ If you take a look at the pages_controller folder, we have a commented line of c
 ```
 
 Write an initialize method and an instance method in Foobar so that when you uncomment the code in
-the Pages Controller, the home page will contain the string "catbazdat" under "Your result".
+the Pages Controller, the home page will contain the string "catbazdat" under "Your result". Do not hard code
+any strings, use the values passed into the bar function and initializer.
 
 ### Question 3
 
