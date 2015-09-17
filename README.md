@@ -45,27 +45,17 @@ Add a view in /views/pages such that the <em>@text</em> variable renders "You ar
 
 
 ### Question 2
-It's blockin' time!
-
 If you take a look at the /controller/concerns folder, you'll see that we've defined a class for you called Foobar. That's where we'll be spending some time to practice our ruby!
 
 If you take a look at the pages_controller folder, we have a commented line of code
 
 ```
-# @baz = Foobar.baz ["1", "2", "3", "4", "5", "10"]
+# foo = Foobar.new "baz"
+# @baz = foo.bar :cat, sat: :dat, dat: :sat
 ```
-Write a class function in Foobar.rb called <b>baz</b> that takes in an array of integers as strings, changes each string into an integer, adds two to each number, keeps the even numbers only, takes out any duplicates, rejects the resulting numbers greater than ten, and returns the sum of the resulting array. You should be able to write this with one line of code using method chaining!
 
-For example:
-
-["1", "2", "3", "4", "5", "10"] returns 10. ((2+2) + (4+2)) = 10.
-
-["1", "2", "2", "2", "3", "4", "5", "10"] also returns 10.
-
-If you uncomment our code, you should see the result under Question 2 of the html page.
-
-If you need help with array methods/method chaining, take a look at:
-http://ruby-doc.org//core-2.2.0/Array.html
+Write an initialize method and an instance method in Foobar so that when you uncomment the code in
+the Pages Controller, the home page will contain the string "catbazdat" under "Your result".
 
 ### Question 3
 

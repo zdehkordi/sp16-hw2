@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
-    # @baz = Foobar.baz ["1", "2", "3", "3", "4", "5", "10", "11", "100"]
+    # foo = Foobar.new "baz"
+    # @baz = foo.bar :cat, sat: :dat, dat: :sat
   end
 
   def stringify
