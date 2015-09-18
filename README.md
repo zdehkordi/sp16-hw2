@@ -78,4 +78,4 @@ You're done! Whew. Time to submit!
   git commit -am "whatever message you want"
   git push origin master
   ```
-  Create a new repository in your Github account called hw2-sp15.  Follow the instructions on how to push up an existing repository then fill out this google doc http://goo.gl/forms/BfE17r574v
+  Create a new repository in your Github account called hw2-sp15.  Follow the instructions on how to push up an existing repository then submit the link (here)[https://github.com/rails-decal/fa15-hw2]
