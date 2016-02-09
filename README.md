@@ -14,7 +14,7 @@ Fork the repository to your own!
 
 Run this command to clone this repository <b>after you fork:</b>
 ```
-git clone https://github.com/your_username/sp15-hw2
+git clone https://github.com/your_username/sp16-hw2
 ```
 
 Afterwards, change directory into the folder and run
@@ -33,7 +33,7 @@ If you look closely at the code at home.html.erb, you'll see a bunch of confusin
 ```
 <%= form_tag stringify_path do... %>
 ```
-Don't worry if this is confusing to you. We'll be covering forms/forms creation later on. What #is# important is that a form POSTS a request to a path.
+Don't worry if this is confusing to you. We'll be covering forms/forms creation later on. What **is** important is that a form POSTS a request to a path.
 
 Good thing we have you here to fix things up! Route a path in the routes.rb file so that when you try to load the page you route to the <em>stringify</em> method in pages_controller.
 
@@ -78,4 +78,4 @@ You're done! Whew. Time to submit!
   git commit -am "whatever message you want"
   git push origin master
   ```
-  Create a new repository in your Github account called hw2-sp15.  Follow the instructions on how to push up an existing repository then submit the link [here](http://www.railsdecal.com/assignments/2)
+  Create a new repository in your Github account called hw2-sp16.  Follow the instructions on how to push up an existing repository then submit the link [here](http://www.railsdecal.com/assignments/2)
