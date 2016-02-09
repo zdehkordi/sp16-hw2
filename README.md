@@ -70,6 +70,11 @@ Using the name and age submitted from the form, create a person object. Modify p
 
 Don't worry about blank form edge cases, and don't worry about formatting.
 
+### Question 4
+Create a view that can be seen if you go to 'localhost:3000/me'.  Just a friendly reminder, to do this
+you have to create a route, a controller action, and a view. In this view put your name, and a fun
+fact about yourself.
+
 ## How to submit
 You're done! Whew. Time to submit!
   Run these commands
