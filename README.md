@@ -83,4 +83,4 @@ You're done! Whew. Time to submit!
   git commit -am "whatever message you want"
   git push origin master
   ```
-  Create a new repository in your Github account called hw2-sp16.  Follow the instructions on how to push up an existing repository then submit the link [here](http://www.railsdecal.com/assignments/2)
+  Create a new repository in your Github account called hw2-sp16.  Follow the instructions on how to push up an existing repository then submit the link [here](http://www.railsdecal.com/assignments/7)
